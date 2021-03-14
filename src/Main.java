@@ -4,8 +4,8 @@ public class Main {
         int spentrubles = 20;
         int miles = 1;
 
-        long coastticket = 27_000;
-        long accuredmiles = coastticket / (spentrubles * miles);
+        int coastticket = 27_000;
+        int accuredmiles = coastticket / (spentrubles * miles);
         System.out.println(accuredmiles);
     }
 }
